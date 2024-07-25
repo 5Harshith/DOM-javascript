@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+ background: linear-gradient( to bottom,black,white);
+ height: 100vh;
+ color: white;
+ text-align: center;
+ padding-top: 100px;
+}
+.main-heading{
+  margin-bottom: 30px;
+}
+.reveal-btn{
+  margin: 0px 40px;
+}
+.boxes{
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+  height: 100%;
+  min-height: 200px;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.container{
+  display: flex;
+  gap: 10px;
+  
+}
+.hidden-container{
+  display: none;
+}
+.hidden-container.display-data{
+  display: block;
+}

@@ -1,0 +1,125 @@
+body{
+  
+  background-image: url(/image/photo-1702207206283-4a249c588a0b.avif) ;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container{
+  background-color: white;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+
+}
+.container input{
+flex: 1;
+border-radius: 4px;
+padding: 5px 3px;
+border: 1px solid black;
+}
+.container button{
+ background-color: transparent;
+ width: 100px;
+ padding: 5px 6px;
+ border-radius: 4px;
+ border: 1px solid black;
+ transition: .5s;
+}
+.container button:hover{
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  cursor: pointer;
+
+}
+#task-container{
+  width: 100%;
+}
+.list-item{
+  background-color: white;
+  list-style: none;
+  padding: 10px 20px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  margin-bottom: 5px;
+
+}
+/* ul{
+ width: 100%;
+  margin: 0;
+  padding: 0;
+  height: unset;
+  
+}
+ul li{
+  background-color: white;
+  list-style: none;
+  padding: 10px 20px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+
+}
+ul li button{
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+ 
+  border-radius: 4px;
+  padding:  0 10px;
+}
+ul li  button {
+  border: 1px solid orange;
+  color: orange;
+}
+ul li  button#trash{
+  border: 1px solid red;
+  color:red;
+} */
+.checktask{
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  border: 1px solid orange;
+  color: orange;
+  border-radius: 4px;
+  padding:  0 10px;
+  margin-right: 10px;
+}
+.deleteTask{
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  border: 1px solid red;
+  color:red;
+  border-radius: 4px;
+  padding:  0 10px;
+}
+.list-item li{
+  list-style: none;
+  font-size: 1.3rem;
+  flex: 4;
+
+}
+.checkRed{
+  text-decoration: line-through;
+  color: red;
+}

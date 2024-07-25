@@ -1,0 +1,48 @@
+body{
+  
+  background-image: url(/image/photo-1702207206283-4a249c588a0b.avif) ;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+  height: 250px;
+  padding: 20px;
+
+}
+#timer{
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.button{
+  text-align: center;
+
+}
+button{
+  margin: 30px 10px;
+  border: none;
+}
+button i{
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+  width: 50px;
+}
+#play{
+  background-color: green;
+}
+#pause{
+  background-color: orange;
+}
+#reset{
+  background-color: red;
+}
